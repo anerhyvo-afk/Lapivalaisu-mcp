@@ -1,0 +1,13 @@
+{
+  "name": "@lapivalaisu/core",
+  "version": "0.1.0",
+  "description": "Läpivalaisu look-through engine: parsers, catalog, and portfolio math. No issuer holdings data.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./parsers": "./parsers.js",
+    "./engine": "./engine.js"
+  }
+}

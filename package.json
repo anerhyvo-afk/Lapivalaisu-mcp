@@ -1,0 +1,14 @@
+{
+  "name": "lapivalaisu",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Läpivalaisu MCP: look-through analysis for Finnish investors.",
+  "license": "MIT",
+  "scripts": {
+    "smoke": "npm --prefix mcp install && npm --prefix mcp run smoke",
+    "start": "npm --prefix mcp start"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
